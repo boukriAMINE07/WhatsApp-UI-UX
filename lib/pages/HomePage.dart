@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp/widgets/CallsWidget.dart';
 import 'package:whatsapp/widgets/StatusWidget.dart';
 import 'package:whatsapp/widgets/ChatsWidget.dart';
 
@@ -31,6 +32,11 @@ class HomePage extends StatelessWidget {
                 ),
             ),
             PopupMenuButton(
+              onSelected: (selected){
+                if(selected==5){
+                    Navigator.pushNamed(context, "SettingsPage");
+                }
+              },
               padding: EdgeInsets.symmetric(vertical: 20),
               elevation: 10,
               iconSize: 28,
@@ -150,7 +156,7 @@ class HomePage extends StatelessWidget {
                 //tab 3
                 StatusWidget(),
                 //tab 4
-                Container(color: Colors.black,),
+                CallsWidget(),
               ],
             ))
           ],

@@ -3,7 +3,7 @@ import 'dart:math';
 
 class ChatsWidget extends StatelessWidget {
    var random = new Random();
-
+  int min=1;
    ChatsWidget({Key? key}) : super(key: key);
 
 
@@ -76,7 +76,7 @@ class ChatsWidget extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20)
                         ),
                         child: Text(
-                          "${random.nextInt(10)}",
+                          "${min+random.nextInt(3)}",
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             color: Colors.white,
