@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp/pages/ChatPage.dart';
 import 'package:whatsapp/pages/HomePage.dart';
 
 import 'pages/SettingsPage.dart';
@@ -25,6 +26,7 @@ class myApp extends StatelessWidget {
       routes: {
         "/":(context)=>HomePage(),
         "SettingsPage":(context)=>SettingsPage(),
+        "ChatPage":(context)=>ChatPage(),
       },
     );
   }

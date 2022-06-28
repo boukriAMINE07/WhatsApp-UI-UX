@@ -1,16 +1,20 @@
-# whatsapp
+<h2><u>Report</u></h2>
+<h3>WhatsApp Clone UI/UX Design Flutter   </h3>
+<ul>
+    <hr>
+    <ol> <img src="images/chats.png"></ol>
+    <ol style="text-align: center"><strong style="color: red"> 1: </strong> Chats </ol>
+    <ol> <img src="images/status.png"></ol>
+    <ol style="text-align: center"><strong style="color: red">Figure 2: </strong> Status</ol>
+    <ol> <img src="images/calls.png"></ol>
+    <ol style="text-align: center"><strong style="color: red">Figure 3: </strong> Calls</ol>
+     <ol> <img src="images/discussion.png"></ol>
+    <ol style="text-align: center"><strong style="color: red">Figure 4: </strong> Discussion</ol>
+    <ol> <img src="images/settings.png"></ol>
+    <ol style="text-align: center"><strong style="color: red">Figure 4: </strong> Settings</ol>
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+</ul>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

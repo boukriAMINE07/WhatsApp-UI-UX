@@ -46,7 +46,7 @@ class StatusWidget extends StatelessWidget {
                         ),
                        SizedBox( height: 8,),
                         Text(
-                          "Today, 21:45 pm",
+                          "Today, 01:45 pm",
                           style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.w500,

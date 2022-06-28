@@ -19,7 +19,7 @@ class ChatsWidget extends StatelessWidget {
           for(int i=1;i<11;i++)
           InkWell(
             onTap: (){
-
+              Navigator.pushNamed(context, "ChatPage");
             },
             child: Container(
               margin: EdgeInsets.symmetric(vertical: 12),
@@ -58,7 +58,7 @@ class ChatsWidget extends StatelessWidget {
                   Column(
                     children: [
                       Text(
-                        "21:45",
+                        "${random.nextInt(24)}:${random.nextInt(60)}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Color(0xFF0FCE5E),
